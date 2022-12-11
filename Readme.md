@@ -1,8 +1,10 @@
 
 //-------------------
+
 npm install express-generator --global
 
 express [options] [dir]
+
 express -pug entry-training-be-demo
     -> default install when use express geberator:
         "cookie-parser": "~1.4.4",
@@ -15,6 +17,12 @@ express -pug entry-training-be-demo
 npm i
 
 //-------------------
+
 npm i nodemon --global
+
 npm install dotenv --save
+
+//-------------------
+
+npm install joi
  
