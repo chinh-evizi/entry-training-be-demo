@@ -1,0 +1,28 @@
+extends ../layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  table
+    thead 
+      tr 
+        th Name
+        th Logo
+        th Website
+        th Phone number
+        th Address
+        th Create At
+        th Action
+    tbody
+      each company in companies.data
+        tr 
+          td= company.companyName
+          td= company.logo
+          td= company.website
+          td= company.phoneNumber
+          td= company.address
+          td= company.createAt
+          td
+            button(type='button' onclick='delete()') Delete
+  
+
